@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function TechCards() {
   return (
-    <div className="flex flex-col md:grid grid-rows-8-150 md:grid-cols-10-30-md lg:grid-cols-10-30 place-content-center gap-5 text-white max-w-screen-lg lg:m-10 m-2">
+    <div className="flex flex-col md:grid grid-rows-8-150 md:grid-cols-10-30-md 
+      lg:grid-cols-10-30 place-content-center gap-5 text-white max-w-screen-xl lg:m-10 m-2">
       <div
         className="row-start-2 row-end-5 col-start-1 col-span-3 flex flex-col gap-2 justify-center items-center
         bg-card-bg rounded-3xl p-4"
