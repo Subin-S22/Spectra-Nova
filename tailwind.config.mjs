@@ -10,8 +10,25 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "text-color": "var(--text-color)",
+        "border-color": "var(--border-color)",
+        "button-bg": "var(--button-bg)",
+        "card-bg": "var(--card-bg)",
+        "blur-card": "rgba(0, 18, 51, 0.6)"
+      },
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
+        Poppins: ["Poppins", "serif"],
       },
     },
+    gridTemplateRows: {
+      "8-150": "20px 50px 50px 50px 50px 50px 50px",
+    },
+    gridTemplateColumns: {
+      "10-30": "40px 100px 100px 100px 100px 100px 100px 100px 100px",
+      "10-30-md": "30px 80px 80px 80px 80px 80px 80px 80px",
+    },
+
   },
   plugins: [],
 };
