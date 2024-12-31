@@ -22,10 +22,10 @@ export default {
       },
     },
     gridTemplateRows: {
-      "8-150": "20px 50px 50px 50px 50px 50px 50px",
+      "8-150": "20px 30px 50px 50px 50px 50px 50px",
     },
     gridTemplateColumns: {
-      "10-30": "40px 100px 100px 100px 100px 100px 100px 100px 100px",
+      "10-30": "40px 100px 100px 100px 100px 100px 100px 90px 90px",
       "10-30-md": "30px 80px 80px 80px 80px 80px 80px 80px",
     },
 

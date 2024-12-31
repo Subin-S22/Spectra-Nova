@@ -56,7 +56,7 @@ const ourSerices = [
  * */
 function ServiceCard({ serviceData, index }) {
   return <div className={"text-white flex  justify-between items-center md:items-stretch gap-4 p-8 md:py-16" + ` ${index % 2 !== 0 ? 'md:flex-row-reverse flex-col' : 'flex-col md:flex-row'}`}>
-    <div className="relative w-[350px] h-[250px] md:w-[635px] md:h-[385px] md:basis-[60%]">
+    <div className="relative w-[300px] h-[250px] sm:w-[350px] sm:h-[250px] md:w-[635px] md:h-[385px] md:basis-[60%]">
       <Image fill={true} src={serviceData.image} alt={serviceData.heading} />
       <div className="rounded-3xl bg-blur-card backdrop-blur-md absolute bottom-1 m-8 p-6 flex justify-between items-end gap-4">
         <div>

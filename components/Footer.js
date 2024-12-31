@@ -47,8 +47,8 @@ export default function Footer() {
           })}
         </div>
         <div>
-          <div>phone number</div>
-          <div>email address</div>
+          <div>+91 89784561230</div>
+          <div>info@spectronova.com</div>
         </div>
       </div>
       <div className="text-white text-sm font-thin flex md:justify-between flex-col md:flex-row  gap-20 md:max-w-[70%] mt-4 md:mt-0">

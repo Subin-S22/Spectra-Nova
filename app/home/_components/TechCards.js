@@ -15,7 +15,7 @@ export default function TechCards() {
       </div>
       <div
         className="row-start-2 row-end-6 col-start-4 col-span-3 flex flex-col gap-2 justify-center items-center
-        bg-card-bg rounded-3xl"
+        bg-card-bg rounded-3xl p-4"
       >
         <Image
           src="/images/Industry-lead.svg"
@@ -49,7 +49,7 @@ export default function TechCards() {
           height={30}
           alt="End to end"
         />
-        <div className="text-xs text-center">
+        <div className="text-sm md:text-xs text-center">
           {" "}
           End-to-End Project Management
         </div>
@@ -61,14 +61,14 @@ export default function TechCards() {
           height={20}
           alt="software tech"
         />
-        <div className="text-xs ">
+        <div className="text-sm md:text-xs  ">
           Software technology solutions provide a wide range of features to
           enhance security and protect digital assets.
         </div>
       </div>
       <div
         className="row-start-5 col-start-7 col-end-10 col-span-3 row-span-3 bg-card-bg rounded-3xl 
-        flex justify-center items-center flex-col gap-2"
+        flex justify-center items-center flex-col gap-2 p-4"
       >
         <Image
           src="/images/Cost.svg"

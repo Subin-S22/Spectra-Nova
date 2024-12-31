@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Text from "./Text"
+import Link from 'next/link'
 
 export default function HeaderSubSection() {
   return <div className={'flex justify-center items-center flex-col'}>
@@ -8,7 +9,7 @@ export default function HeaderSubSection() {
     </Text>
     <Text className="bg-button-bg rounded-lg border border-border-color py-2 px-4 
           font-Poppins flex justify-center gap-4 w-fit">
-      Let’s get connected <Image src="/images/Arrow.svg" width={12} height={12} alt="arrow" />
-    </Text>
+      <Link href="/contactus" className="flex justify-center gap-4 w-fit">Let’s get connected <Image src="/images/Arrow.svg" width={12} height={12} alt="arrow" />
+      </Link>    </Text>
   </div>
 }
