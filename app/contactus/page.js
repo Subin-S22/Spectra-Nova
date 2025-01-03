@@ -1,8 +1,8 @@
 
 export default function ContactUs() {
   return <div className="p-4">
-    <h1 className="text-text-color uppercase text-2xl font-semibold">get in touch</h1>
-    <p className="text-white text-2xl font-semibold">Ready to elevate your business with cutting-edge technology?</p>
+    <h1 className="text-text-color uppercase text-3xl font-semibold">get in touch</h1>
+    <p className="text-white text-3xl font-semibold">Ready to elevate your business with cutting-edge technology?</p>
     <p className="text-text-color text-base">Contact us today.</p>
 
     <div className="text-white text-base mt-4">
